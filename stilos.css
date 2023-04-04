@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: system-ui,'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: rgb(243, 115, 145);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav{
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 10px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: #131010;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    background: #f3a1ba;
+}
+
+aside{
+    color: black;
+    float: right;
+    width: 30%;
+}
+
+aside img{
+    width: 50px;
+}
+
+aside audio{
+    background: #ec3874;
+    display: flex;
+}
+
+.contenido ul img{
+    width: 380px;
+    height: 440px;
+}
+.contenido img{
+    width: 270px;
+    height: auto;
+}
+
+.contenido h3{
+    color: rgb(86, 182, 242);
+}
+
+.contenido{
+    width: 400px;
+    background: rgb(243, 115, 145);
+    height: 2165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background: url(media/imagen/postres.jpg) no-repeat center;
+    background-size: cover;
+}
+header img{
+     height: 640px;
+     width: 1000px;
+}
+
+.slider{
+    margin: 0px;
+    float: center
+}
+
+.title {
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 10%;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #ec3874;
+    color: #161515;
+    text-decoration: none;
+    background: #f883aa;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: white;
+
+}
+
+.box-container .box p {
+    padding: 15px;
+    font-size: 15px;
+}
+
+.about {
+    background: #171717;
+}
+
+footer{
+    background: rgb(200, 124, 223);
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+
+#inicio{
+    width: 70%;
+    margin: 4px;
+    background: rgb(200, 124, 223);
+}
+#inicio video{
+    margin-left: 200px;
+}
+#contenid{
+    width: 70%;
+    background: rgb(221, 150, 243);
+    margin: 4px; 
+}
+#contenid img{
+    width: 570px;
+    margin-left: 120px;
+}
+
+h3 strong{
+    color: rgb(89, 223, 196);
+}
+
+#la-carta{
+    width: 70%;
+    margin: 4px;
+    background: rgb(200, 124, 223);
+}
+#la-carta img{
+    margin-left: 50px;
+    width: 400px;
+    
+}
+#preguntas{
+    width: 70%;
+    margin: 4px;
+    background: rgb(221, 150, 243);
+}
+.bax{
+    align-content: center;
+    height: 100px;
+    width: 900px;
+    background: rgb(111, 209, 247);
+    border-radius: 1px;
+    margin: 9px; 
+}
+
+.bax h3{
+    color: #f05731;
+    text-align: center;
+}
+
+.bax-p {
+    display: flex;
+   
+    text-align: center;
+}
+
+.map{
+    margin: 15px;
+}
+
